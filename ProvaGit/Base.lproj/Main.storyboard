@@ -24,13 +24,25 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="jWR-Nf-3n2">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fYS-j7-vsx">
+                                <rect key="frame" x="278" y="215" width="213" height="132"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="213" id="FMN-tl-eRn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="47"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="jWR-Nf-3n2" secondAttribute="trailing" id="33a-Aw-Hio"/>
-                            <constraint firstItem="jWR-Nf-3n2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="7ql-t3-Fm5"/>
-                            <constraint firstItem="jWR-Nf-3n2" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="koh-vR-EJJ"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jWR-Nf-3n2" secondAttribute="bottom" id="zD0-20-BYC"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fYS-j7-vsx" secondAttribute="bottom" constant="677" id="1MO-KG-o5N"/>
+                            <constraint firstItem="fYS-j7-vsx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="195" id="A3R-Vt-xMd"/>
+                            <constraint firstItem="jWR-Nf-3n2" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="CKq-fW-w9h"/>
+                            <constraint firstAttribute="trailing" secondItem="jWR-Nf-3n2" secondAttribute="trailing" id="CRe-BP-9jV"/>
+                            <constraint firstItem="jWR-Nf-3n2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="GIp-V8-mJd"/>
+                            <constraint firstItem="jWR-Nf-3n2" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="VgD-p7-A0l"/>
+                            <constraint firstItem="jWR-Nf-3n2" firstAttribute="centerX" secondItem="fYS-j7-vsx" secondAttribute="centerX" id="ysP-MX-F8V"/>
                         </constraints>
                     </view>
                 </viewController>
